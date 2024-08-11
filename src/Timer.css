@@ -1,0 +1,36 @@
+.timer-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .timer-controls button {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .progress-bar-container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+  
+  .time-display {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .message {
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+  }
+  
